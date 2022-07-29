@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Six+Caps&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div id="center">
+            <h1>DRUMKIT</h1>
+            <h2>Usando o seu teclado!</h2>
+            <img src="./assets/mainimg.png">
+        </div> 
+        <div id="keysmap">
+            <ul id="keysmaplist"></ul>
+            <li class="listkey">
+                <kbd>E</kbd>
+                <span>Boom</span>
+            </li>
+            <li class="listkey">
+                <kbd>R</kbd>
+                <span>Ride</span>
+            </li>
+            <li class="listkey">
+                <kbd>F</kbd>
+                <span>Clap</span>
+            </li>
+            <li class="listkey">
+                <kbd>G</kbd>
+                <span>Tom</span>
+            </li>
+            <li class="listkey">
+                <kbd>A</kbd>
+                <span>Kick</span>
+            </li>
+            <li class="listkey">
+                <kbd>J</kbd>
+                <span>Snare</span>
+            </li>
+            <li class="listkey">
+                <kbd>I</kbd>
+                <span>Hi-Hat Open</span>
+            </li>
+            <li class="listkey">
+                <kbd>K</kbd>
+                <span>Hi-Hat Closed</span>
+            </li>
+            </ul>
+        </div>  
+
+        <audio data-key="69" src="./assets/boom.wav" class="keys"></audio>
+        <audio data-key="82" src="./assets/ride.wav" class="keys"></audio>
+        <audio data-key="70" src="./assets/clap.wav" class="keys"></audio>
+        <audio data-key="71" src="./assets/tom.wav" class="keys"></audio>
+        <audio data-key="65" src="./assets/kick.wav" class="keys"></audio>
+        <audio data-key="74" src="./assets/snare.wav" class="keys"></audio>
+        <audio data-key="73" src="./assets/openhat.wav" class="keys"></audio>
+        <audio data-key="75" src="./assets/hihat.wav" class="keys"></audio>
+
+
+
+
+
+
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
